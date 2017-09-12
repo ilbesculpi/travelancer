@@ -17,4 +17,14 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'as' => 'admin:', 'middleware' => ['auth']], function() {
+	
+	Route::redirect('/', 'admin/dashboard');
+	
+	Route::get('/dashboard', ['uses' => 'AdminController@dashboard', 'as' => 'dashboard']);
+	
+	
+	
+});
