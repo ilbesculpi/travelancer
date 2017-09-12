@@ -1,0 +1,36 @@
+
+.main-header .logo {
+  text-align: center;
+}
+
+.main-header .logo img {
+  width: 32px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.resultsbox {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+    .resultsbox img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .resultsbox .time {
+        font-weight: bold;
+        color: #404040;
+    }
+    
+    .resultsbox .desc {
+        font-weight: bold;
+        font-size: 2em;
+        color: blueviolet;
+    }
+    
+.full-width {
+    width: 100%;
+}
