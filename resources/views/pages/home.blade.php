@@ -69,6 +69,9 @@
 			
             <div class="content">
 				
+				<div>
+					<img src="<?= url('/images/logo.png') ?>" alt="<?= env('APP_NAME', 'Laravel') ?> Logo" />
+				</div>
                 <div class="title m-b-md">
                     <?= env('APP_NAME', 'Laravel') ?>
                 </div>
