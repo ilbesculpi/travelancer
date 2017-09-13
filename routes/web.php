@@ -25,6 +25,6 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'as' => 'admin:', 'mi
 	
 	Route::get('/dashboard', ['uses' => 'AdminController@dashboard', 'as' => 'dashboard']);
 	
-	
+	Route::resource('places', 'PlacesController');
 	
 });

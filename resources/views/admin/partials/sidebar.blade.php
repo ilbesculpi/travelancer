@@ -34,6 +34,13 @@
 			</li>
 			
 			<li>
+				<a href="<?= route('admin:places.index') ?>">
+					<i class="fa fa-map-marker"></i>
+					<span>Places</span>
+				</a>
+			</li>
+			
+			<li>
 				<a href="#">
 					<i class="fa fa-tags"></i>
 					<span>Categories</span>
